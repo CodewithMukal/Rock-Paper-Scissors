@@ -74,7 +74,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 280px;
+    border-radius: 100%;
 }
 .butPar{
     display: flex;
@@ -180,4 +180,36 @@ img{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+@media only screen and (max-width: 1200px){
+    #title{
+        font-size: 1.75rem;
+    }
+    .buttons{
+        width: 110px;
+        height: 110px;
+        user-select: none;
+    }
+    .buttons img{
+        width: 60px;
+        height: 60px;
+    }
+    .butPar{
+        gap: 10px;
+    }
+    #buttons{
+        gap: 24px;
+    }
+    #buttons p{
+        font-size: 14px;
+    }
+    .scoreText p{
+        font-size: 20px;
+    }
+    #guideText p{
+        font-size: 20px;
+    }
+    #notify{
+        font-size: 36px;
+    }
 }
