@@ -185,7 +185,9 @@ img{
     width: 100vw;
     height: 62px;
     background-color: #010248;
-    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,8 +225,5 @@ img{
     }
     #notify{
         font-size: 36px;
-    }
-    #footerdiv{
-        margin-top: 174px;
     }
 }
