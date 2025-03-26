@@ -42,6 +42,7 @@ reset.addEventListener("click",()=>{
     win = 0
     lose = 0
     changeHTML();
+    guide.textContent = ""
 })
 // Function to change guide Text
 const guideUser = (val)=>{
