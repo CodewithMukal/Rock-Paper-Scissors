@@ -1,0 +1,183 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background:#262B7E;
+}
+img{
+    user-select: none;
+}
+#headerdiv{
+    background-color: #010248;
+    width: 100vw;
+    height: 111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    color: #00FFF2;
+    text-align: center;
+    font-family: "Black Han Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 78px;
+    align-items: center;
+    margin-top: 80px;
+}
+#rockButton{
+    background-color: #D26B6B;
+    cursor: pointer;
+}
+#rockButton:hover{
+    background-color: #ae5959;
+}
+#rockButton:hover + p{
+    color: red;
+}
+#paperButton:hover + p{
+    color: red;
+}
+#scissorsButton:hover + p{
+    color: red;
+}
+#paperButton{
+    background-color: #6BA4D2;
+    cursor: pointer;
+}
+#paperButton:hover{
+    background-color: #527ea1;
+}
+#paperButton img{
+    transform: rotate(42deg);
+}
+#scissorsButton{
+    background-color: #6B6DD2;
+    cursor: pointer;
+}
+#scissorsButton:hover{
+    background-color: #4b4c95;
+}
+#scissorsButton img{
+    transform: rotate(-30deg);
+}
+.buttons{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 280px;
+}
+.butPar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+}
+.butPar p{
+    color: #D0FF00;
+    text-align: center;
+    font-family: "Black Han Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    user-select: none;
+}
+#score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 53px;
+}
+#win{
+    color: #00BC5E;
+}
+#draw{
+    color: #975959;
+}
+#lose{
+    color: #FF0000;
+}
+.scoreText{
+    text-align: center;
+    font-family: "Black Han Sans";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#guideText p{
+    color: #00FFF2;
+    text-align: center;
+    font-family: "Black Han Sans";
+    margin-top: 50px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+#resetDiv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset{
+    border-radius: 50px;
+    background: #D0FF00;    
+    width: 320px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Black Han Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+#reset:hover{
+    background: #9bbd00;   
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+#notifyDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#notify{
+    color: #F00;
+    text-align: center;
+    font-family: "Black Han Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

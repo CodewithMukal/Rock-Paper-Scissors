@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="headerdiv">
+            <h1 id="title">ROCK PAPER SCISSORS</h1>
+        </div>
+    </header>
+    <main>
+        <div id="buttons">
+            <div id="rock" class="butPar">
+                <div id="rockButton" class="buttons">
+                    <img src="Images/rock.png" alt="ROCK" width="150" height="150">
+                </div>
+                <p>Rock</p>
+            </div>
+            <div id="paper" class="butPar">
+                <div id="paperButton" class="buttons">
+                    <img src="Images/hand-paper.png" alt="PAPER" width="150" height="150">
+                </div>
+                <p>Paper</p>
+            </div>
+            <div id="scissors" class="butPar">
+                <div id="scissorsButton" class="buttons">
+                    <img src="Images/scissors.png" alt="SCISSORS" width="150" height="150">
+                </div>
+                <p>Scissors</p>
+            </div>
+        </div>
+        <div id="score">
+            <div id="win" class="scoreText">
+                <p id="winP">
+                    Win: 0
+                </p>
+            </div>
+            <div id="draw" class="scoreText">
+                <p id="drawP">
+                    Draw: 0
+                </p>
+            </div>
+            <div id="lose" class="scoreText">
+                <p id="loseP">
+                    Lose: 0
+                </p>
+            </div>
+        </div>
+        <div id="guideText">
+            <p id="guide">Click on Your Choice</p>
+        </div>
+        <div id="notifyDiv">
+            <p id="notify"></p>
+        </div>
+        <div id="resetDiv">
+            <button id="reset">
+                Reset Score
+            </button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
