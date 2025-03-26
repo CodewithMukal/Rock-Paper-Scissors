@@ -181,6 +181,18 @@ img{
     font-weight: 400;
     line-height: normal;
 }
+#footerdiv{
+    width: 100vw;
+    height: 62px;
+    background-color: #010248;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Black Han Sans";
+}
 @media only screen and (max-width: 1200px){
     #title{
         font-size: 1.75rem;
@@ -211,5 +223,8 @@ img{
     }
     #notify{
         font-size: 36px;
+    }
+    #footerdiv{
+        margin-top: 174px;
     }
 }
